@@ -1,0 +1,13 @@
+<div class="container-fluid">
+ <div *ngFor="let photo1 of photoResults" class="row">
+ <div class="col-1">
+ <p>Title</p>
+ </div>
+ <div class="class=col-6">
+ <p>{{photo1.title}}</p>
+ </div>
+ <div class="col-2">
+ <img src="{{photo1.thumbnailUrl}}">
+ </div>
+ </div>
+</div>
